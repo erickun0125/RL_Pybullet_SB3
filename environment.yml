@@ -1,0 +1,21 @@
+name: rl_pybullet_sb3
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - pip
+  - tensorboard  # TensorBoard 추가
+  - pip:
+      - stable-baselines3
+      - pybullet
+      - jupyter
+      - numpy
+      - gym==0.23.1  # 호환되는 Gym 버전 고정
+      - shimmy>=2.0  # Gymnasium과 호환되는 Shimmy 추가
+      - matplotlib

@@ -1,0 +1,46 @@
+# ❌ VSCode 관련 파일 (개인 설정이므로 공유할 필요 없음)
+.vscode/
+
+# ❌ Python 캐시 파일 및 빌드 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ❌ 실험 로그 및 TensorBoard 로그
+logs/
+*.log
+*.tfevents
+
+# ❌ 모델 체크포인트 및 저장된 모델 파일
+models/
+*.zip
+*.h5
+*.pth
+*.ckpt
+
+# ❌ 데이터 및 실험 결과 (데이터를 Git에 올리면 용량이 커짐)
+data/
+experiments/
+*.csv
+*.json
+*.npz
+*.pkl
+*.npy
+
+# ❌ 가상 환경 관련 파일
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ❌ Jupyter Notebook 실행 결과 및 임시 파일
+.ipynb_checkpoints/
+*.sav
+*.tar.gz
+
+# ❌ Conda 환경 파일 캐시
+*.conda
+*.yaml~
